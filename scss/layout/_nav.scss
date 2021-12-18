@@ -57,8 +57,19 @@
         
 
         .menu {
-            @include menu-list;
-            background-color: $primary-color;
+            list-style: none;
+
+            .menu-item {
+                font-size: 50px;
+                text-transform: uppercase;
+                padding: 20px 0;
+                text-decoration: none;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
         }
        
     }

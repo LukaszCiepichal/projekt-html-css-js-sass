@@ -247,7 +247,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Bellota", sans-serif;
+  font-family: "Bellota Text", cursive;
   color: #473452;
 }
 
@@ -372,20 +372,17 @@ section {
 
 .main-nav .open-menu-holder .menu {
   list-style: none;
-  background-color: #fff;
-  background-color: #1ba4ce;
 }
 
 .main-nav .open-menu-holder .menu .menu-item {
-  display: inline-block;
-  margin: 0 20px;
-  font-size: initial;
+  font-size: 50px;
   text-transform: uppercase;
+  padding: 20px 0;
+  text-decoration: none;
 }
 
 .main-nav .open-menu-holder .menu .menu-item a {
-  color: #473452;
-  font-weight: 700;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -445,7 +442,7 @@ section {
   color: #473452;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Bellota", sans-serif;
+  font-family: "Bellota Text", cursive;
   font-weight: 700;
 }
 
@@ -948,7 +945,7 @@ textarea,
 select {
   width: 100%;
   border: 0;
-  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   background-color: #1ba4ce;
   display: inline-block;
   padding: 15px;
